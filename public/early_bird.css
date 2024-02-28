@@ -1,6 +1,6 @@
 @font-face {
     font-family: myfont1;
-    src: url(fonts/VibrantHandmark-Yzpza.otf);
+    src: url(fonts/Adobe\ Caslon\ Pro\ Regular.ttf);
 }
 
 @font-face {
@@ -50,7 +50,7 @@
 }
 
 body{
-    background-image: url(ima/background.png);
+    background-image: url(ima/WhatsApp\ Image\ 2024-02-26\ at\ 18.18.41_de5c7396.jpg);
 }
 
 .content{
@@ -78,6 +78,10 @@ body{
 }
 
 li:nth-child(1){
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+    align-items: center;
     padding-left: 2rem;
     font-size: 4vw;
     font-family: myfont1;
@@ -135,9 +139,7 @@ li:nth-child(2){
 }
 
 @media (min-width: 651px) and (max-width: 1200px) 
-{
-    body{
-    }    
+{   
     .registration{
         width: auto;
     }
