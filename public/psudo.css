@@ -99,11 +99,11 @@ body{
 
 
 .form-submit-btn button{
-    width: 20%;
+    width: auto;
     font-weight: bolder;
     font-family: myfont2;
     letter-spacing: 2px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     background-color: black;
     color: white;
 }
@@ -150,6 +150,8 @@ body{
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
+        justify-content: center;
+        align-items: center;
     }
 
     .main-user-info::-webkit-scrollbar{
