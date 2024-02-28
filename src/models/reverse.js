@@ -34,7 +34,7 @@ const Reverse = new mongoose.Schema({
     },
     gender: {
         type: String,
-        enum: ["Male", "Female", "Other"],
+        enum: ["Male", "Female"],
         // required: true,
         description: "The gender of the user."
     }

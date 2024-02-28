@@ -142,14 +142,6 @@ body{
     .user-input-box:nth-child(2n){
         justify-content: space-between;
     }
-
-    .gender-category{
-        display: flex;
-        flex-direction: column;
-    }
-    .gender-category label{
-        padding: 1rem 0rem;
-    }
     .main-user-info{
         max-height: 380px;
         overflow: auto;

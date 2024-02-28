@@ -161,9 +161,25 @@ li:nth-child(2){
 @media (min-width: 0px) and (max-width: 650px){
     .registration{
         width: 95%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .registration li{
+        padding: 0;
+        margin: 0;
+    }
+
+    .image img{
+        scale: 0.8;
     }
     li:nth-child(1){
-        font-size: 1.5rem;
+        padding-top: 1rem;
+        font-size: 3rem;
+    }
+    li:nth-child(2){
+        font-size: 2rem;
+        margin-top: 1rem;
     }
     .download{
         width: 100%;
